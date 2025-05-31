@@ -24,7 +24,7 @@ A robust backend system for managing property listings, featuring authentication
 ### Setup
 1. **Clone the repository**
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/RahulJha93/Property-Listing-Backend.git
    cd backend
    ```
 2. **Install dependencies**
