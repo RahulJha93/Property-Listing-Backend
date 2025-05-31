@@ -174,7 +174,7 @@ All routes are prefixed with `/api`.
 
 - Build the project: `npm run build`
 - Start in production: `npm start`
-- Configurations for Render/Vercel are included.
+- Deploy on railway,vercel,render.
 
 ---
 

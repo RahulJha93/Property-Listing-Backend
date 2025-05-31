@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
   res.send('Property Listing Backend is running.');
 });
 
-// Import and use routes
+
 import authRoutes from './routes/auth';
 import propertyRoutes from './routes/property';
 import favoriteRoutes from './routes/favorite';
@@ -53,7 +53,7 @@ app.use('/api/properties', propertyRoutes);
 app.use('/api/favorites', favoriteRoutes);
 app.use('/api/recommendations', recommendationRoutes);
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
